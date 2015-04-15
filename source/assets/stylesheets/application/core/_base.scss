@@ -1,0 +1,121 @@
+/*------------------------------------*\
+    $RESET
+\*------------------------------------*/
+/**
+ * A more considered reset; more of a restart...
+ * As per: csswizardry.com/2011/10/reset-restarted
+ */
+
+    /**
+    * Let’s make the box model all nice, shall we...?
+    */
+*{
+      &,
+      &:before,
+      &:after{
+          -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+          -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+          box-sizing: border-box;         /* Opera/IE 8+ */
+      }
+  }
+
+/**
+ * The usual...
+ */
+h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,
+dl,dd,ol,ul,
+form,fieldset,legend,
+table,th,td,caption,
+hr{
+    margin:0;
+    padding:0;
+}
+
+/**
+ * Give a help cursor to elements that give extra info on `:hover`.
+ */
+abbr[title],dfn[title]{
+    cursor:help;
+}
+
+/**
+ * Remove underlines from potentially troublesome elements.
+ */
+u,ins{
+    text-decoration:none;
+}
+
+/**
+ * Apply faux underline via `border-bottom`.
+ */
+ins{
+    border-bottom:1px solid;
+}
+
+/**
+ * So that `alt` text is visually offset if images don’t load.
+ */
+img{
+    font-style:italic;
+    max-width: 100%; 
+}
+
+/**
+ * Give form elements some cursor interactions...
+ */
+label,
+input,
+textarea,
+button,
+select,
+option{
+    cursor:pointer;
+}
+    .text-input:active,
+    .text-input:focus,
+    textarea:active,
+    textarea:focus{
+        cursor:text;
+        outline:none;
+    }
+
+html{
+    
+    font:#{($font-size-base/16px)*1em}/#{$line-height-ratio} $baseFontFamily;
+    overflow-y:auto;
+    min-height:100%;
+    -webkit-font-smoothing: antialiased;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    @media (max-width: 1280px){
+      font:#{(16px/16px)*1em}/#{$line-height-ratio} $baseFontFamily;
+    }
+}
+
+input{
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  color: #333;
+  font-weight: 300;
+}
+
+blockquote{
+  margin: 0;
+}
+
+
+a{
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+  &:focus{
+    outline: none;
+  }
+}

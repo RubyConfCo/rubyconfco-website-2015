@@ -1,0 +1,14 @@
+.nav{
+  font-family: $specialFontFamily;
+  font-weight: $MediumFontWeight;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  .nav__item{
+    color: $color-white;
+    display: inline-block;
+    & + .nav__item{
+      margin-left: 45px;
+    }
+  }
+}

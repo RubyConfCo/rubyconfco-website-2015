@@ -1,0 +1,29 @@
+.footer{
+  background-color: $color-red;
+  .nav{
+    font-family: $baseFontFamily;
+    font-weight: $BoldFontWeight;
+    margin-bottom: 20px;
+  }
+}
+
+.footer__top{
+  img{
+    display: block;
+    margin: 0 auto;
+    opacity: .4;
+    -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=40)';
+    filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=40)';
+  }
+}
+
+.footer__bottom{
+  background-color: $color-red-dark;
+  color: $color-white;
+  padding: 50px 0 60px;
+  text-align: center;
+  .icon{
+    font-size: 1.9444444444rem;
+    margin-left: 14px;
+  }
+}

@@ -1,0 +1,31 @@
+.header{
+  background-color: $color-red;
+  line-height: 4.1666666667rem;
+  position: fixed;
+  width: 100%;
+  top: 0rem;
+  -webkit-transition: top 0.3s ease-in-out;
+  -moz-transition: top 0.3s ease-in-out;
+  -ms-transition: top 0.3s ease-in-out;
+  -o-transition: top 0.3s ease-in-out;
+  transition: top 0.3s ease-in-out;
+  z-index: 100;
+    .logo{
+    color: $color-white;
+    font-size: 3.3333333333rem;
+    line-height: 0;
+    .icon{
+      display: block;
+      line-height: 4.1666666667rem;
+    }
+  }
+}
+
+.index{
+  .header{
+    top: -4.1666666667rem;
+    &.onsight{
+      top: 0;
+    }
+  }
+}
