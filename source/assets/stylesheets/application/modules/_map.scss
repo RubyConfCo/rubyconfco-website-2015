@@ -1,0 +1,48 @@
+.map-canvas{
+  background-color: #CCC;
+  bottom: 0;
+  height: 84.5%;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 59.21875%;
+  .close{
+    background-color: rgba(#313131, 0.7);
+    border-radius: 100%;
+    font-family: $specialFontFamily;
+    font-size: 1.4444444444rem;
+    font-weight: $MediumFontWeight;
+    height: 3.1666666667rem;
+    line-height: 3.4666666667rem;
+    position: absolute;
+    right: -1.5833333333rem;
+    text-align: center;
+    top: -1.5833333333rem;
+    width: 3.1666666667rem;
+    z-index: 10;
+  }
+  .map{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.map-overlay{
+  background-color: rgba(#212121,0.7);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 100%;
+  -webkit-transition: top 0.3s ease-in-out;
+  -moz-transition: top 0.3s ease-in-out;
+  -ms-transition: top 0.3s ease-in-out;
+  -o-transition: top 0.3s ease-in-out;
+  transition: top 0.3s ease-in-out;
+  &.open{
+    top: 0;
+  }
+}

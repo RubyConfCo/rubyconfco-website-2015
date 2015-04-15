@@ -33,7 +33,9 @@
   background-color: #38355B;
   background-image: image_url("bg-venue.jpg");
   background-size: cover;
+  position: relative;
   color: $color-white;
+  overflow: hidden;
   .section__title, 
   .section__description,
   .section__title-separator{

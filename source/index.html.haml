@@ -9,6 +9,11 @@ title: Ruby Conf - Colombia
 %section.section.section-venue#venue
   .wrapper
     = partial "partials/venue"
+  .map-overlay
+    .map-canvas
+      %a.close{:href => "#", class: "js-map-close"} X
+      #map-canvas.map
+      
 
 %section.section.section-speakers#speakers
   .wrapper.text--center
