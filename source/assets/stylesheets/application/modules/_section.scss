@@ -165,3 +165,64 @@
     }
   }
 }
+
+.section__accordion{
+  .accordion__title{
+    color: $color-gray-soft;
+    font-size: 1.5rem;
+    font-weight: $BoldFontWeight;
+    margin-bottom: 1.6111111111rem;
+  }
+  .accordion__header{
+    cursor: pointer;
+    margin-bottom: 1rem;
+    position: relative;
+    .accordion__header--title{
+      color: $color-gray-soft;
+      font-size: 1.1666666667rem;
+      font-weight: $MediumFontWeight;
+    }
+   &:before{
+      border-bottom: 0.2777777778rem solid transparent;
+      border-left: 0.4166666667rem solid #DBDBDB;
+      border-top: 0.2777777778rem solid transparent;
+      bottom: 0;
+      content: "";
+      height: 0; 
+      left: -0.8611111111rem;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      width: 0; 
+    }
+    &.open{
+      &:before{
+        border-right: 0.2777777778rem solid transparent;
+        border-left: 0.2777777778rem solid transparent;
+        border-top: 0.4166666667rem solid #DBDBDB;
+        border-bottom: 0.2777777778rem solid transparent;
+        top: 25%;
+      }
+    }
+  }
+
+  .accordion__body{
+    color: #828282;
+    font-weight: $RegularFontWeight;
+    margin-bottom: 3rem;
+    a{
+      color: #5AA3E8;
+    }
+    p{
+      margin-bottom: 1rem;
+    }
+    ul{
+      list-style: none;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+      li{
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
