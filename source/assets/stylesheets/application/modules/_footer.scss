@@ -4,6 +4,16 @@
     font-family: $baseFontFamily;
     font-weight: $BoldFontWeight;
     margin-bottom: 20px;
+    .nav__item{
+      opacity: .75;
+      -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=75)';
+      filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=75)';
+      &:hover{
+        opacity: 1;
+        -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
+        filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
+      }
+    }
   }
 }
 
@@ -25,5 +35,13 @@
   .icon{
     font-size: 1.9444444444rem;
     margin-left: 14px;
+    opacity: .75;
+    -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=75)';
+    filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=75)';
+    &:hover{
+      opacity: 1;
+      -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
+      filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
+    }
   }
 }

@@ -2,10 +2,10 @@
 %html
   = partial "shared/head"
   %body{:class => page_classes}
-    .main-content
+    = partial "shared/navigation-slider"
+    .main-content#top
       = partial "shared/main-banner"
-    = partial "shared/header"
-    .main-wrapper
+      = partial "shared/header"
       = yield
-    = partial "shared/footer"
+      = partial "shared/footer"
     = partial "shared/scripts"

@@ -7,8 +7,125 @@
   .nav__item{
     color: $color-white;
     display: inline-block;
+    font-size: 0.8888888889rem;
+    &.current{
+      a{
+        font-weight: $BoldFontWeight;
+      }
+    }
     & + .nav__item{
       margin-left: 45px;
     }
   }
 }
+
+.nav--slider-container{
+  bottom: 0;
+  display: table;
+  height: 100%;
+  position: fixed;
+  right: 28px;
+  text-align: center;
+  top: 0;
+  z-index: 100;
+  .nav--slider{
+      display: table-cell;
+      vertical-align: middle;
+    .nav__item{
+      display: block;
+      &.current{
+        a{
+          background-color: $color-red;
+          -webkit-transition: background-color 0.2s ease-in-out;
+          -moz-transition: background-color 0.2s ease-in-out;
+          -ms-transition: background-color 0.2s ease-in-out;
+          -o-transition: background-color 0.2s ease-in-out;
+          transition: background-color 0.2s ease-in-out;
+        }
+      }
+      & + .nav__item{
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+      a{
+        background-color: #DCDCDC;
+        border-radius: 100%;
+        display: block;
+        height: 0.4444444444rem;
+        margin: auto;
+        width: 0.4444444444rem;
+        -webkit-transition: background-color 0.2s ease-in-out;
+        -moz-transition: background-color 0.2s ease-in-out;
+        -ms-transition: background-color 0.2s ease-in-out;
+        -o-transition: background-color 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out;
+        .icon{
+          color: #DCDCDC;
+          font-size: 1.8888888889rem;
+          -webkit-transition: color 0.2s ease-in-out;
+          -moz-transition: color 0.2s ease-in-out;
+          -ms-transition: color 0.2s ease-in-out;
+          -o-transition: color 0.2s ease-in-out;
+          transition: color 0.2s ease-in-out;
+        }
+      }
+    }
+    .nav__item--icon{
+      a{
+        background-color: transparent;
+        border-radius: 0;
+        display: block;
+        height: auto;
+        line-height: 1;
+        margin: auto;
+        width: auto;
+      }
+    }
+  }
+  &.red{
+    .nav--slider{
+      .nav__item{
+        &.current{
+          a{
+            background-color: #38355B;
+          }
+        }
+        a{
+          background-color: $color-white;
+          .icon{
+            color: $color-white;
+          }
+        }
+      }
+      .nav__item--icon{
+        a{
+          background-color: transparent;
+        }
+      }
+    }
+  }
+  &.purple{
+    .nav--slider{
+      .nav__item{
+        &.current{
+          a{
+            background-color: $color-red;
+          }
+        }
+        a{
+          background-color: $color-white;
+          .icon{
+            color: $color-white;
+          }
+        }
+      }
+      .nav__item--icon{
+        a{
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+

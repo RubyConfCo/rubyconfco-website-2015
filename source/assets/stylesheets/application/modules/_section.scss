@@ -1,5 +1,12 @@
 .section{
+  display: table;
+  min-height: 100%;
   padding: 5.5555555556rem 0 6.6666666667rem;
+  width: 100%;
+  & > *{
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 
 .section__title{
@@ -121,6 +128,19 @@
   .sponsor-category__img{
     vertical-align: bottom;
     margin:0 2rem 4rem;
+    opacity: 0.75;
+    -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=75)';
+    filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=75)';
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    &:hover{
+      opacity: 1;
+      -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
+      filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
+    }
   }
 }
 

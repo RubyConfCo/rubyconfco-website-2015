@@ -3,6 +3,8 @@
 //  HEADER 
 
 $(window).scroll(function() {
+
+  // scrollTO
   var scroll = $(this).scrollTop();
   var hbanner = $('.main-banner').height();
   if(scroll >= hbanner){
@@ -11,7 +13,74 @@ $(window).scroll(function() {
   else{
     $('.header').removeClass('onsight');
   }
+
+
+  // change color navigation slider
+  var navSlider = $('.nav--slider-container');
+  var navSliderTop = $('.nav--slider-container').offset().top;
+  var section_red = [$('#top'), $('#top').offset(), $('#top').height()];
+  var section_purple = [$('#venue'), $('#venue').offset(), $('#venue').height()];
+
+  if((navSliderTop+1) >= section_red[1].top && (navSliderTop+1) <= (parseInt(section_red[1].top)+parseInt(section_red[2])) ){
+    navSlider.addClass('red');
+  }
+  else{
+    navSlider.removeClass('red'); 
+  }
+
+  if((navSliderTop+1) >= section_purple[1].top && (navSliderTop+1) <= (parseInt(section_purple[1].top)+parseInt(section_purple[2])) ){
+    navSlider.addClass('purple');
+  }
+  else{
+    navSlider.removeClass('purple'); 
+  }
+
+  // change slider current on scroll
+
+  var sectionTop = [$('#top'), $('#top').offset(), $('#top').height()];
+  if((navSliderTop+1) >= sectionTop[1].top && (navSliderTop+1) <= (parseInt(sectionTop[1].top)+parseInt(sectionTop[2])) ){
+    $(".nav__item").removeClass('current');
+    $(("[data-scrollto='#top']")).parent(".nav__item").addClass('current');
+  }
+
+  var sectionRegistration = [$('#registration'), $('#registration').offset(), $('#registration').height()];
+  if((navSliderTop+1) >= sectionRegistration[1].top && (navSliderTop+1) <= (parseInt(sectionRegistration[1].top)+parseInt(sectionRegistration[2])) ){
+    $(".nav__item").removeClass('current');
+    $(("[data-scrollto='#registration']")).parent(".nav__item").addClass('current');
+  }
+
+  var sectionVenue= [$('#venue'), $('#venue').offset(), $('#venue').height()];
+  if((navSliderTop+1) >= sectionVenue[1].top && (navSliderTop+1) <= (parseInt(sectionVenue[1].top)+parseInt(sectionVenue[2])) ){
+    $(".nav__item").removeClass('current');
+    $(("[data-scrollto='#venue']")).parent(".nav__item").addClass('current');
+  }
+
+  var sectionSpeakers = [$('#speakers'), $('#speakers').offset(), $('#speakers').height()];
+  if((navSliderTop+1) >= sectionSpeakers[1].top && (navSliderTop+1) <= (parseInt(sectionSpeakers[1].top)+parseInt(sectionSpeakers[2])) ){
+    $(".nav__item").removeClass('current');
+    $(("[data-scrollto='#speakers']")).parent(".nav__item").addClass('current');
+  }
+
+  var sectionTickets = [$('#tickets'), $('#tickets').offset(), $('#tickets').height()];
+  if((navSliderTop+1) >= sectionTickets[1].top && (navSliderTop+1) <= (parseInt(sectionTickets[1].top)+parseInt(sectionTickets[2])) ){
+    $(".nav__item").removeClass('current');
+    $(("[data-scrollto='#tickets']")).parent(".nav__item").addClass('current');
+  }
+
+  var sectionSchedule = [$('#schedule'), $('#schedule').offset(), $('#schedule').height()];
+  if((navSliderTop+1) >= sectionSchedule[1].top && (navSliderTop+1) <= (parseInt(sectionSchedule[1].top)+parseInt(sectionSchedule[2])) ){
+    $(".nav__item").removeClass('current');
+    $(("[data-scrollto='#schedule']")).parent(".nav__item").addClass('current');
+  }
+
+  var sectionSponsors = [$('#sponsors'), $('#sponsors').offset(), $('#sponsors').height()];
+  if((navSliderTop+1) >= sectionSponsors[1].top && (navSliderTop+1) <= (parseInt(sectionSponsors[1].top)+parseInt(sectionSponsors[2])) ){
+    $(".nav__item").removeClass('current');
+    $(("[data-scrollto='#sponsors']")).parent(".nav__item").addClass('current');
+  }
+
 });
+
 
 //  ACCORDION 
 
@@ -24,6 +93,8 @@ $(accordionTrigger).on('click', function() {
   $(this).toggleClass('open');
   $(this).next('.accordion__body').slideToggle();
 }); 
+
+// scrollTo
 
 $(".js-scrollTo").on('click', function(e){
   e.preventDefault();
