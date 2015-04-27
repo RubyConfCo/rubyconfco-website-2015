@@ -1,5 +1,10 @@
 //= require_tree .
 
+$(".js-nav-toggle").on( "click", function() {
+  $(this).toggleClass( "active" );
+  $("body").toggleClass( "opened" );
+});
+
 //  HEADER 
 
 $(window).scroll(function() {
@@ -23,16 +28,20 @@ $(window).scroll(function() {
 
   if((navSliderTop+1) >= section_red[1].top && (navSliderTop+1) <= (parseInt(section_red[1].top)+parseInt(section_red[2])) ){
     navSlider.addClass('red');
+    $(".js-nav-toggle").addClass('red');
   }
   else{
     navSlider.removeClass('red'); 
+    $(".js-nav-toggle").removeClass('red');
   }
 
   if((navSliderTop+1) >= section_purple[1].top && (navSliderTop+1) <= (parseInt(section_purple[1].top)+parseInt(section_purple[2])) ){
     navSlider.addClass('purple');
+    $(".js-nav-toggle").addClass('purple');
   }
   else{
     navSlider.removeClass('purple'); 
+    $(".js-nav-toggle").removeClass('purple');
   }
 
   // change slider current on scroll

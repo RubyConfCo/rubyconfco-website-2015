@@ -1,15 +1,17 @@
 .wrapper{
-  padding: 0 10px;
+  padding: 0 50px;
   margin: 0 auto;
   max-width: 1280px;
-}
-
-.main-content{
-  padding-top: 4.1666666667rem;
+  @media( max-width: 600px) {
+    padding: 0 20px;
+  }
 }
 
 .index{
   .main-content{
+    -ms-transition: transform 500ms ease-in-out;
+    -webkit-transition: transform 500ms ease-in-out;
+    transition: transform 500ms ease-in-out;
     height: 100%;
     padding-top: 0;
   }

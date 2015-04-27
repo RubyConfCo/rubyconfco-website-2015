@@ -7,6 +7,9 @@
     display: table-cell;
     vertical-align: middle;
   }
+  @media( max-width: 1023px ){
+    padding: 3.5555555556rem 0 4.6666666667rem;
+  }
 }
 
 .section__title{
@@ -61,7 +64,7 @@
 
 .section-speakers{
   .speaker{
-    margin-bottom: 4.3333333333rem;
+    margin: 2.3333333333rem 0;
   }
   .speaker__img{
     @include simetric(230px);
@@ -117,17 +120,18 @@
 
 .section-sponsors{
   .sponsor-category{
-    margin-bottom: 5rem;
+    & + .sponsor-category{
+      margin-top: 5rem;
+    }
   }
   .sponsor-category__title{
     color: $color-gray-tertiary;
     font-size: 1.4444444444rem;
     font-weight: $RegularFontWeight;
-    margin-bottom: 1.8888888889rem;
   }
   .sponsor-category__img{
     vertical-align: bottom;
-    margin:0 2rem 4rem;
+    margin: 2rem;
     opacity: 0.75;
     -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=75)';
     filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=75)';
@@ -153,14 +157,21 @@
   }  
   .schedule__time{
     color: $color-gray;
+    float: left;
     font-size: 1.1111111111rem;
     font-weight: $MediumFontWeight;
+    margin-right: 20px;
+    width: 120px;
+    @media (max-width: 1280px){
+      width: 110px;
+    }
   }
   .schedule__description{
     @extend .push--bottom;
     color: $color-gray-secundary;
     font-size: 1.1111111111rem;
     font-weight: $RegularFontWeight;
+    overflow: hidden;
     &.special{
       color: #38355B;
       font-weight: $MediumFontWeight;
@@ -170,6 +181,13 @@
   .schedule__speaker{
     color: $color-red;
   }
+  @media (max-width: 1024px){
+    [class*="push--"]{
+      left: 0;
+      margin-top: 3rem;
+    }
+  }
+  
 }
 
 .section-form{
@@ -184,6 +202,13 @@
     line-height: 1.77;
     b{
       font-weight: $MediumFontWeight;
+    }
+  }
+  @media (max-width: 1024px){
+    .form-content{
+      border-top: 1px solid #979797;
+      margin-top: 3rem;
+      padding-top: 3rem;
     }
   }
 }

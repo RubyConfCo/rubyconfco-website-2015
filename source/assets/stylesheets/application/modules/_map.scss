@@ -8,6 +8,9 @@
   right: 0;
   top: 0;
   width: 59.21875%;
+  @media (max-width: 767px){
+    width: 86.5%;
+  }
   .close{
     background-color: rgba(#313131, 0.7);
     border-radius: 100%;

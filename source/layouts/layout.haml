@@ -3,9 +3,11 @@
   = partial "shared/head"
   %body{:class => page_classes}
     = partial "shared/navigation-slider"
+    = partial "shared/header"
+    %a.js-nav-toggle.nav-toggle
+      %span
     .main-content#top
       = partial "shared/main-banner"
-      = partial "shared/header"
       = yield
       = partial "shared/footer"
     = partial "shared/scripts"

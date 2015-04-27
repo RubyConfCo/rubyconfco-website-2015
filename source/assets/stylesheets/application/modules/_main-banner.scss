@@ -32,9 +32,17 @@
 }
 
 .main-banner__header{
-  padding-top: 15px;
+  padding-top: 0.8333333333rem;
   position: relative;
   z-index: 10;
+  .nav__item{
+    a{
+      padding: 0.5555555556rem 0;
+    }
+  }
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 
 .main-banner__body{
@@ -53,7 +61,10 @@
   .logo{
     font-size: 11.666666667rem;
     line-height: 0;
-    margin-bottom: 57px;
+    margin-bottom: 3.1666666667rem;
+    @media (max-width: 600px ){
+      margin-bottom: 1.1666666667rem;
+    }
     .icon{
       display: block;
     }
@@ -63,7 +74,7 @@
 
 .main-banner__footer{
   position: absolute;
-  bottom: 31px;
+  bottom: 1.7222222222rem;
   left: 0;
   right: 0;
   .icon{
@@ -81,7 +92,10 @@
   font-family: $baseFontFamily;
   font-weight: $LightFontWeight;
   font-size: 1.8888888889rem;
-  margin-bottom: 90px;
+  margin-bottom: 5rem;
+  @media (max-width: 600px ){
+    margin-bottom: 2rem;
+  }
   b{
     font-weight: $MediumFontWeight;
   }

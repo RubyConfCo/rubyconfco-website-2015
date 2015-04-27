@@ -15,6 +15,9 @@
     }
     & + .nav__item{
       margin-left: 45px;
+      @media (max-width: 1024px){
+        margin-left: 20px;
+      }
     }
   }
 }
@@ -28,6 +31,12 @@
   text-align: center;
   top: 0;
   z-index: 100;
+  @media (max-width: 1024px){
+    right: 10px;
+  }
+  @media (max-width: 600px){
+    display: none;
+  }
   .nav--slider{
       display: table-cell;
       vertical-align: middle;
@@ -53,6 +62,7 @@
         display: block;
         height: 0.4444444444rem;
         margin: auto;
+        padding: 0;
         width: 0.4444444444rem;
         -webkit-transition: background-color 0.2s ease-in-out;
         -moz-transition: background-color 0.2s ease-in-out;
@@ -127,5 +137,63 @@
     }
   }
 }
+
+.nav-toggle { 
+  display: none; position: fixed; right: 20px; top: 20px; z-index: 100;
+  -ms-transition: transform 500ms ease-in-out;
+  -webkit-transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+}
+
+@media (max-width: 600px ){
+  .nav-toggle { display: block;}
+}
+
+.nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: #DCDCDC;
+  position: absolute;
+  display: block;
+  content: '';
+}
+.nav-toggle.red span, .nav-toggle.red span:before, .nav-toggle.red span:after {
+  background: $color-white;
+}
+.nav-toggle.purple span, .nav-toggle.purple span:before, .nav-toggle.purple span:after {
+  background: $color-red;
+}
+.nav-toggle span:before {
+  top: -10px; 
+}
+.nav-toggle span:after {
+  bottom: -10px;
+}
+
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+.nav-toggle.active{
+  -ms-transform: translateX(-220px); /* IE 9 */
+  -webkit-transform: translateX(-220px); /* Chrome, Safari, Opera */
+  transform: translateX(-220px);
+}
+.nav-toggle.active span {
+  background-color: transparent;
+}
+.nav-toggle.active span:before, .nav-toggle.active span:after {
+  top: 0;
+}
+.nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+.nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+
 
 
