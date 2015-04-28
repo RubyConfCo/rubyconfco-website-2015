@@ -10,14 +10,23 @@
   @media( max-width: 1023px ){
     padding: 3.5555555556rem 0 4.6666666667rem;
   }
+
+  @media( max-width: 600px ){
+    min-height: inherit;
+    padding: 3.5555555556rem 0;
+  }
 }
 
 .section__title{
-  @extend .push--bottom;
   color: $color-gray;
   font-family: $specialFontFamily;
   font-size: 2.4444444444rem;
   font-weight: $MediumFontWeight;
+  margin-bottom: 1.44444444rem;
+  @media (max-width: 600px){
+    font-size: 2.111111rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .section__title-separator{
@@ -34,6 +43,9 @@
   font-size: 1.6666666667rem;
   font-weight: $LightFontWeight;
   margin-bottom: 5.7777777778rem;
+  @media (max-width: 600px ){
+    margin-bottom: 3.7777777778rem;
+  }
   span{
     font-weight: $RegularFontWeight;
   }
@@ -53,11 +65,20 @@
   }
   .section__description{
     margin-bottom: 5rem;
+    @media (max-width: 600px ){
+      margin-bottom: 2rem;
+    }
     &.large{
       font-size: 2.3888888889rem;
+      @media (max-width: 600px ){
+        font-size: 2.1888888889rem;
+      }
     }
     &.short{
       font-size: 1.4444444444rem;
+      @media (max-width: 600px ){
+        font-size: 1.1111rem;
+      }
     }
   }
 }
@@ -65,6 +86,9 @@
 .section-speakers{
   .speaker{
     margin: 2.3333333333rem 0;
+    @media(max-width: 600px){
+      margin: 1.3333333333rem 0;
+    }
   }
   .speaker__img{
     @include simetric(230px);
@@ -122,6 +146,9 @@
   .sponsor-category{
     & + .sponsor-category{
       margin-top: 5rem;
+      @media (max-width: 600px){
+        margin-top: 3rem;
+      }
     }
   }
   .sponsor-category__title{
@@ -145,6 +172,9 @@
       -ms-filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
       filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
     }
+    @media (max-width: 600px){
+      margin: 2rem 0 1rem;
+    }
   }
 }
 
@@ -165,13 +195,16 @@
     @media (max-width: 1280px){
       width: 110px;
     }
+    @media (max-width: 600px){
+      margin-right: 10px;
+    }
   }
   .schedule__description{
-    @extend .push--bottom;
     color: $color-gray-secundary;
     font-size: 1.1111111111rem;
     font-weight: $RegularFontWeight;
     overflow: hidden;
+    margin-bottom: 1.44444444rem;
     &.special{
       color: #38355B;
       font-weight: $MediumFontWeight;

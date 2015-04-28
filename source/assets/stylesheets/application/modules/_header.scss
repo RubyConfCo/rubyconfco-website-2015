@@ -63,6 +63,10 @@
         }
       }
     }
+    @media ( max-width: 480px ){
+      padding: 1rem 0;
+      line-height: 2.1666666667rem;
+    }
   }
   &.opened{
     .main-content{

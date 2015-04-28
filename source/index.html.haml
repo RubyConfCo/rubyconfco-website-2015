@@ -2,37 +2,14 @@
 title: Ruby Conf - Colombia
 ---
 
-%section.section.section-form#registration
-  %div
-    .wrapper
-      = partial "partials/registration"
+= partial "partials/registration"
 
-%section.section.section-venue#venue
-  %div
-    .wrapper
-      = partial "partials/venue"
-    .map-overlay
-      .map-canvas
-        %a.close{:href => "#", class: "js-map-close"} X
-        #map-canvas.map
-      
+= partial "partials/venue"
+    
+= partial "partials/speakers"
 
-%section.section.section-speakers#speakers
-  %div
-    .wrapper.text--center
-      = partial "partials/speakers"
+= partial "partials/tickets"
 
-%section.section#tickets
-  %div
-    .wrapper
-      = partial "partials/tickets"
+= partial "partials/schedule"
 
-%section.section.section-schedule#schedule
-  %div
-    .wrapper
-      = partial "partials/schedule"
-
-%section.section.section-sponsors#sponsors
-  %div
-    .wrapper
-      = partial "partials/sponsors"
+= partial "partials/sponsors"

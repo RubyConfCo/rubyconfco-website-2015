@@ -11,6 +11,9 @@
   @media (max-width: 767px){
     width: 86.5%;
   }
+  @media (max-width: 600px){
+    height: 400px;
+  }
   .close{
     background-color: rgba(#313131, 0.7);
     border-radius: 100%;
@@ -45,6 +48,7 @@
   -ms-transition: top 0.3s ease-in-out;
   -o-transition: top 0.3s ease-in-out;
   transition: top 0.3s ease-in-out;
+  z-index: 100;
   &.open{
     top: 0;
   }

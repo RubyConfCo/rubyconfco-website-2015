@@ -110,6 +110,8 @@ $(".js-scrollTo").on('click', function(e){
   var sectionName = $(this).attr('data-scrollto');
   var sectionPosition = $(sectionName).offset().top;
   $("html, body").animate({scrollTop : sectionPosition},1000);
+  $(".js-nav-toggle").removeClass( "active" );
+  $("body").removeClass( "opened" );
 })
 
 // MAP
