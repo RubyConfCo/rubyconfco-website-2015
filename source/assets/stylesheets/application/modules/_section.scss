@@ -140,6 +140,15 @@
     font-size: 0.8888888889rem;
     font-weight: $RegularFontWeight;
   }
+  &.section-organizers{
+    .speaker__img{
+      @include simetric(180px);
+      border-radius: 180px;
+      .speaker__img--hover{
+        border-radius: 180px;
+      }
+    }
+  }
 }
 
 .section-sponsors{

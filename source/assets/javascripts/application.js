@@ -88,6 +88,14 @@ $(window).scroll(function() {
     }
   }
 
+  if ( $('#organizers').length > 0 ){  
+    var sectionOrganizers = [$('#organizers'), $('#organizers').offset(), $('#organizers').height()];
+    if((navSliderTop+1) >= sectionOrganizers[1].top && (navSliderTop+1) <= (parseInt(sectionOrganizers[1].top)+parseInt(sectionOrganizers[2])) ){
+      $(".nav__item").removeClass('current');
+      $(("[data-scrollto='#organizers']")).parent(".nav__item").addClass('current');
+    }
+  }
+
   if ( $('#schedule').length > 0 ){ 
     var sectionSchedule = [$('#schedule'), $('#schedule').offset(), $('#schedule').height()];
     if((navSliderTop+1) >= sectionSchedule[1].top && (navSliderTop+1) <= (parseInt(sectionSchedule[1].top)+parseInt(sectionSchedule[2])) ){
