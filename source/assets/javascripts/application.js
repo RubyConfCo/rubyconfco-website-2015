@@ -26,66 +26,82 @@ $(window).scroll(function() {
   var section_red = [$('#top'), $('#top').offset(), $('#top').height()];
   var section_purple = [$('#venue'), $('#venue').offset(), $('#venue').height()];
 
-  if((navSliderTop+1) >= section_red[1].top && (navSliderTop+1) <= (parseInt(section_red[1].top)+parseInt(section_red[2])) ){
-    navSlider.addClass('red');
-    $(".js-nav-toggle").addClass('red');
+  if ( $('#top').length > 0 ){
+    if((navSliderTop+1) >= section_red[1].top && (navSliderTop+1) <= (parseInt(section_red[1].top)+parseInt(section_red[2])) ){
+      navSlider.addClass('red');
+      $(".js-nav-toggle").addClass('red');
+    }
+    else{
+      navSlider.removeClass('red'); 
+      $(".js-nav-toggle").removeClass('red');
+    }
   }
-  else{
-    navSlider.removeClass('red'); 
-    $(".js-nav-toggle").removeClass('red');
+  if ( $('#venue').length > 0 ){
+    if((navSliderTop+1) >= section_purple[1].top && (navSliderTop+1) <= (parseInt(section_purple[1].top)+parseInt(section_purple[2])) ){
+      navSlider.addClass('purple');
+      $(".js-nav-toggle").addClass('purple');
+    }
+    else{
+      navSlider.removeClass('purple'); 
+      $(".js-nav-toggle").removeClass('purple');
+    }
   }
-
-  if((navSliderTop+1) >= section_purple[1].top && (navSliderTop+1) <= (parseInt(section_purple[1].top)+parseInt(section_purple[2])) ){
-    navSlider.addClass('purple');
-    $(".js-nav-toggle").addClass('purple');
-  }
-  else{
-    navSlider.removeClass('purple'); 
-    $(".js-nav-toggle").removeClass('purple');
-  }
-
+    
   // change slider current on scroll
-
-  var sectionTop = [$('#top'), $('#top').offset(), $('#top').height()];
-  if((navSliderTop+1) >= sectionTop[1].top && (navSliderTop+1) <= (parseInt(sectionTop[1].top)+parseInt(sectionTop[2])) ){
-    $(".nav__item").removeClass('current');
-    $(("[data-scrollto='#top']")).parent(".nav__item").addClass('current');
+  if ( $('#top').length > 0 ){
+    var sectionTop = [$('#top'), $('#top').offset(), $('#top').height()];
+    if((navSliderTop+1) >= sectionTop[1].top && (navSliderTop+1) <= (parseInt(sectionTop[1].top)+parseInt(sectionTop[2])) ){
+      $(".nav__item").removeClass('current');
+      $(("[data-scrollto='#top']")).parent(".nav__item").addClass('current');
+    }
   }
 
-  var sectionRegistration = [$('#registration'), $('#registration').offset(), $('#registration').height()];
-  if((navSliderTop+1) >= sectionRegistration[1].top && (navSliderTop+1) <= (parseInt(sectionRegistration[1].top)+parseInt(sectionRegistration[2])) ){
-    $(".nav__item").removeClass('current');
-    $(("[data-scrollto='#registration']")).parent(".nav__item").addClass('current');
+  if ( $('#registration').length > 0 ){
+    var sectionRegistration = [$('#registration'), $('#registration').offset(), $('#registration').height()];
+    if((navSliderTop+1) >= sectionRegistration[1].top && (navSliderTop+1) <= (parseInt(sectionRegistration[1].top)+parseInt(sectionRegistration[2])) ){
+      $(".nav__item").removeClass('current');
+      $(("[data-scrollto='#registration']")).parent(".nav__item").addClass('current');
+    }
   }
 
-  var sectionVenue= [$('#venue'), $('#venue').offset(), $('#venue').height()];
-  if((navSliderTop+1) >= sectionVenue[1].top && (navSliderTop+1) <= (parseInt(sectionVenue[1].top)+parseInt(sectionVenue[2])) ){
-    $(".nav__item").removeClass('current');
-    $(("[data-scrollto='#venue']")).parent(".nav__item").addClass('current');
+  if ( $('#venue').length > 0 ){  
+    var sectionVenue= [$('#venue'), $('#venue').offset(), $('#venue').height()];
+    if((navSliderTop+1) >= sectionVenue[1].top && (navSliderTop+1) <= (parseInt(sectionVenue[1].top)+parseInt(sectionVenue[2])) ){
+      $(".nav__item").removeClass('current');
+      $(("[data-scrollto='#venue']")).parent(".nav__item").addClass('current');
+    }
   }
 
-  var sectionSpeakers = [$('#speakers'), $('#speakers').offset(), $('#speakers').height()];
-  if((navSliderTop+1) >= sectionSpeakers[1].top && (navSliderTop+1) <= (parseInt(sectionSpeakers[1].top)+parseInt(sectionSpeakers[2])) ){
-    $(".nav__item").removeClass('current');
-    $(("[data-scrollto='#speakers']")).parent(".nav__item").addClass('current');
+  if ( $('#speakers').length > 0 ){  
+    var sectionSpeakers = [$('#speakers'), $('#speakers').offset(), $('#speakers').height()];
+    if((navSliderTop+1) >= sectionSpeakers[1].top && (navSliderTop+1) <= (parseInt(sectionSpeakers[1].top)+parseInt(sectionSpeakers[2])) ){
+      $(".nav__item").removeClass('current');
+      $(("[data-scrollto='#speakers']")).parent(".nav__item").addClass('current');
+    }
   }
 
-  var sectionTickets = [$('#tickets'), $('#tickets').offset(), $('#tickets').height()];
-  if((navSliderTop+1) >= sectionTickets[1].top && (navSliderTop+1) <= (parseInt(sectionTickets[1].top)+parseInt(sectionTickets[2])) ){
-    $(".nav__item").removeClass('current');
-    $(("[data-scrollto='#tickets']")).parent(".nav__item").addClass('current');
+  if ( $('#tickets').length > 0 ){ 
+    var sectionTickets = [$('#tickets'), $('#tickets').offset(), $('#tickets').height()];
+    if((navSliderTop+1) >= sectionTickets[1].top && (navSliderTop+1) <= (parseInt(sectionTickets[1].top)+parseInt(sectionTickets[2])) ){
+      $(".nav__item").removeClass('current');
+      $(("[data-scrollto='#tickets']")).parent(".nav__item").addClass('current');
+    }
   }
 
-  var sectionSchedule = [$('#schedule'), $('#schedule').offset(), $('#schedule').height()];
-  if((navSliderTop+1) >= sectionSchedule[1].top && (navSliderTop+1) <= (parseInt(sectionSchedule[1].top)+parseInt(sectionSchedule[2])) ){
-    $(".nav__item").removeClass('current');
-    $(("[data-scrollto='#schedule']")).parent(".nav__item").addClass('current');
+  if ( $('#schedule').length > 0 ){ 
+    var sectionSchedule = [$('#schedule'), $('#schedule').offset(), $('#schedule').height()];
+    if((navSliderTop+1) >= sectionSchedule[1].top && (navSliderTop+1) <= (parseInt(sectionSchedule[1].top)+parseInt(sectionSchedule[2])) ){
+      $(".nav__item").removeClass('current');
+      $(("[data-scrollto='#schedule']")).parent(".nav__item").addClass('current');
+    }
   }
 
-  var sectionSponsors = [$('#sponsors'), $('#sponsors').offset(), $('#sponsors').height()];
-  if((navSliderTop+1) >= sectionSponsors[1].top && (navSliderTop+1) <= (parseInt(sectionSponsors[1].top)+parseInt(sectionSponsors[2])) ){
-    $(".nav__item").removeClass('current');
-    $(("[data-scrollto='#sponsors']")).parent(".nav__item").addClass('current');
+  if ( $('#sponsors').length > 0 ){ 
+    var sectionSponsors = [$('#sponsors'), $('#sponsors').offset(), $('#sponsors').height()];
+    if((navSliderTop+1) >= sectionSponsors[1].top && (navSliderTop+1) <= (parseInt(sectionSponsors[1].top)+parseInt(sectionSponsors[2])) ){
+      $(".nav__item").removeClass('current');
+      $(("[data-scrollto='#sponsors']")).parent(".nav__item").addClass('current');
+    }
   }
 
 });
