@@ -2,27 +2,31 @@
   %div
     .wrapper
       %p.section__description.text--center
-        Join us May 4th, 5th & 6th, to be a part of the 
-        %span Ruby Developers' group 
+        Join us October 15th & 16th, to be a part of the
+        %span Ruby conference
         where people from all around the world will come together to share their knowledge and to inspire others.
 
       .grid
-        .grid__item.one-whole>
-          %p.form__title.push--bottom Speak at RUBICONF.CO 2015
+        -#
+          .grid__item.one-whole>
+            %p.form__title.push--bottom Speak at RUBICONF.CO 2015
+          .grid__item.palm--one-whole.lap--one-whole.one-half>
+            .push-double--bottom
+              %p.form__description We are looking for talks of all levels - beginner, intermediate or advanced, and awesome non-technical talks that you think would appeal to engineers are also welcomed!
+
+              %p.form__description
+                %b Proposals will be accepted until Monday, 30 April 2015
+
+            %a.btn.btn--alternative{:href => ""} Submit Your Talk Here
+
         .grid__item.palm--one-whole.lap--one-whole.one-half>
-          .push-double--bottom 
-            %p.form__description We are looking for talks of all levels - beginner, intermediate or advanced, and awesome non-technical talks that you think would appeal to engineers are also welcomed! 
-
-            %p.form__description
-              %b Proposals will be accepted until Monday, 30 April 2015
-
-          %a.btn.btn--alternative{:href => ""} Submit Your Talk Here
-
-        .grid__item.palm--one-whole.lap--one-whole.one-half>
-          %form.form-content 
+          %form.form-content{"accept-charset" => "UTF-8", :action => "https://rubyconfco.wufoo.com.mx/forms/z1x50dwf0kwnd8q/#public", :autocomplete => "off", :enctype => "multipart/form-data", :method => "post", :name => "form1", :novalidate => ""}
+            %input#idstamp{:name => "idstamp", :type => "hidden", :value => "ZjA0rGEvrQ7iN3189MeFbqnLkmiEiIC14Y+sjK549Cc="}/
             .form-field
-              %input.input--text{:type => "text", :placeholder => "Name"}
-            .form-field.push-double--bottom 
-              %input.input--text{:type => "email", :placeholder => "E-mail"}
+              %input.input--text{:type => "text", :placeholder => "Name", :id => "Field3", :name => "Field3"}
             .form-field
-              %a.btn.btn--alternative{:href => ""} Send
+              %input.input--text{:type => "text", :placeholder => "Last Name", :id => "Field4", :name => "Field4"}
+            .form-field.push-double--bottom
+              %input.input--text{:type => "email", :placeholder => "E-mail", :id => "Field6", :name => "Field6"}
+            .form-field
+              %button.btn.btn--alternative{:href => ""} Send
