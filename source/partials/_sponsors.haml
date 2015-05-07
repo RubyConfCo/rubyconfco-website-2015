@@ -8,11 +8,13 @@
       .sponsor-category.text--center
         %h1.sponsor-category__title PLATINUM
         %div
+          
 
       .sponsor-category.text--center
         %h1.sponsor-category__title GOLD
         %div
-          = image_tag "sponsors/koombea.jpg", :class => "sponsor-category__img"
+          = link_to "http://koombea.com/" do
+            = image_tag "sponsors/koombea.jpg", :class => "sponsor-category__img"
         
       .sponsor-category.text--center
         %h1.sponsor-category__title SILVER
