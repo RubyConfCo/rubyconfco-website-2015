@@ -20,10 +20,13 @@
             %a.btn.btn--alternative{:href => ""} Submit Your Talk Here
 
         .grid__item.palm--one-whole.lap--one-whole.one-half>
-          %form.form-content
+          %form.form-content{"accept-charset" => "UTF-8", :action => "https://rubyconfco.wufoo.com.mx/forms/z1x50dwf0kwnd8q/#public", :autocomplete => "off", :enctype => "multipart/form-data", :method => "post", :name => "form1", :novalidate => ""}
+            %input#idstamp{:name => "idstamp", :type => "hidden", :value => "ZjA0rGEvrQ7iN3189MeFbqnLkmiEiIC14Y+sjK549Cc="}/
             .form-field
-              %input.input--text{:type => "text", :placeholder => "Name"}
+              %input.input--text{:type => "text", :placeholder => "Name", :id => "Field3", :name => "Field3"}
+            .form-field
+              %input.input--text{:type => "text", :placeholder => "Last Name", :id => "Field4", :name => "Field4"}
             .form-field.push-double--bottom
-              %input.input--text{:type => "email", :placeholder => "E-mail"}
+              %input.input--text{:type => "email", :placeholder => "E-mail", :id => "Field6", :name => "Field6"}
             .form-field
-              %a.btn.btn--alternative{:href => ""} Send
+              %button.btn.btn--alternative{:href => ""} Send
