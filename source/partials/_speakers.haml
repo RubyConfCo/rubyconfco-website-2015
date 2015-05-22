@@ -32,6 +32,21 @@
         .grid__item.one-third.palm--one-whole.lap--one-half>
           .speaker
             .speaker__img
+              = image_tag("speakers/sandimetz.jpeg")
+              .speaker__img--hover
+                %a{:href => "https://twitter.com/sandimetz"}
+                  %i.icon.icon-twitter
+                %a{:href => "https://github.com/skmetz"}
+                  %i.icon.icon-github
+            %p.speaker__name SANDI METZ
+            %p.speaker__job-title
+              Cyclist, Rubyist, reluctant author
+              %a{ href: "http://poodr.com" }
+                (http://poodr.com)
+              obsessive programmer, recalcitrant blogger and the antidote for ambition.
+        .grid__item.one-third.palm--one-whole.lap--one-half>
+          .speaker
+            .speaker__img
               = image_tag("speakers/sarah-mei.jpg")
               .speaker__img--hover
                 %a{:href => "https://twitter.com/sarahmei"}
