@@ -20,13 +20,18 @@
             %a.btn.btn--alternative{:href => ""} Submit Your Talk Here
 
         .grid__item.palm--one-whole.lap--one-whole.one-half>
-          %form.form-content{"accept-charset" => "UTF-8", :action => "https://rubyconfco.wufoo.com.mx/forms/z1x50dwf0kwnd8q/#public", :autocomplete => "off", :enctype => "multipart/form-data", :method => "post", :name => "form1", :novalidate => ""}
-            %input#idstamp{:name => "idstamp", :type => "hidden", :value => "ZjA0rGEvrQ7iN3189MeFbqnLkmiEiIC14Y+sjK549Cc="}/
+          %form#mc-embedded-subscribe-form.validate{:action => "//rubyconf.us11.list-manage.com/subscribe/post?u=7b7c2e5ead7427750ced71f09&id=8d4ffd72a9", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
             .form-field
-              %input.input--text{:type => "text", :placeholder => "Name", :id => "Field3", :name => "Field3"}
+              %input.input--text{:type => "text", :placeholder => "Name", :id => "FNAME", :name => "FNAME"}
             .form-field
-              %input.input--text{:type => "text", :placeholder => "Last Name", :id => "Field4", :name => "Field4"}
+              %input.input--text{:type => "text", :placeholder => "Last Name", :id => "LNAME", :name => "LNAME"}
             .form-field.push-double--bottom
-              %input.input--text{:type => "email", :placeholder => "E-mail", :id => "Field6", :name => "Field6"}
+              %input.input--text{:type => "email", :placeholder => "E-mail", :id => "EMAIL", :name => "EMAIL"}
+            #mce-responses.clear
+              #mce-error-response.response{:style => "display:none"}
+              #mce-success-response.response{:style => "display:none"}
+            / real people should not fill this in and expect good things - do not remove this or risk form bot signups
+            %div{:style => "position: absolute; left: -5000px;"}
+              %input{:name => "b_7b7c2e5ead7427750ced71f09_8d4ffd72a9", :tabindex => "-1", :type => "text", :value => ""}/
             .form-field
-              %button.btn.btn--alternative Send
+              %button.btn.btn--alternative{:name => "subscribe", :type => "submit", :value => "Send"} Send
