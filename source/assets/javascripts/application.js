@@ -56,11 +56,11 @@ $(window).scroll(function() {
     }
   }
 
-  if ( $('#registration').length > 0 ){
-    var sectionRegistration = [$('#registration'), $('#registration').offset(), $('#registration').height()];
-    if((navSliderTop+1) >= sectionRegistration[1].top && (navSliderTop+1) <= (parseInt(sectionRegistration[1].top)+parseInt(sectionRegistration[2])) ){
+  if ( $('#mailing-list').length > 0 ){
+    var sectionMailingList = [$('#mailing-list'), $('#mailing-list').offset(), $('#mailing-list').height()];
+    if((navSliderTop+1) >= sectionMailingList[1].top && (navSliderTop+1) <= (parseInt(sectionMailingList[1].top)+parseInt(sectionMailingList[2])) ){
       $(".nav__item").removeClass('current');
-      $(("[data-scrollto='#registration']")).parent(".nav__item").addClass('current');
+      $(("[data-scrollto='#mailing-list']")).parent(".nav__item").addClass('current');
     }
   }
 
