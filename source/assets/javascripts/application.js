@@ -88,11 +88,11 @@ $(window).scroll(function() {
     }
   }
 
-  if ( $('#organizers').length > 0 ){  
-    var sectionOrganizers = [$('#organizers'), $('#organizers').offset(), $('#organizers').height()];
-    if((navSliderTop+1) >= sectionOrganizers[1].top && (navSliderTop+1) <= (parseInt(sectionOrganizers[1].top)+parseInt(sectionOrganizers[2])) ){
+  if ( $('#coc').length > 0 ){  
+    var sectionCoC = [$('#coc'), $('#coc').offset(), $('#coc').height()];
+    if((navSliderTop+1) >= sectionCoC[1].top && (navSliderTop+1) <= (parseInt(sectionCoC[1].top)+parseInt(sectionCoC[2])) ){
       $(".nav__item").removeClass('current');
-      $(("[data-scrollto='#organizers']")).parent(".nav__item").addClass('current');
+      $(("[data-scrollto='#coc']")).parent(".nav__item").addClass('current');
     }
   }
 

@@ -142,10 +142,10 @@
   }
   &.section-organizers{
     .speaker__img{
-      @include simetric(180px);
-      border-radius: 180px;
+      @include simetric(130px);
+      border-radius: 130px;
       .speaker__img--hover{
-        border-radius: 180px;
+        border-radius: 130px;
       }
     }
   }
