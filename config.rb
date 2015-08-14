@@ -18,6 +18,7 @@
 #
 # With alternative layout
 page "/code_of_conduct.html", :layout => :otherlayout
+page "/estudiantes.html", :layout => :otherlayout
 #
 # A path which all have the same layout
 # with_layout :admin do

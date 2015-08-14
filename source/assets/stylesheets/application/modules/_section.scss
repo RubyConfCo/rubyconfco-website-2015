@@ -58,7 +58,7 @@
   position: relative;
   color: $color-white;
   overflow: hidden;
-  .section__title, 
+  .section__title,
   .section__description,
   .section__title-separator{
     color: $color-white;
@@ -193,7 +193,7 @@
     font-size: 1.6666666667rem;
     font-weight: $MediumFontWeight;
     margin-bottom: 2.1111111111rem;
-  }  
+  }
   .schedule__time{
     color: $color-gray;
     float: left;
@@ -229,7 +229,7 @@
       margin-top: 3rem;
     }
   }
-  
+
 }
 
 .section-form{
@@ -277,12 +277,12 @@
       border-top: 0.2777777778rem solid transparent;
       bottom: 0;
       content: "";
-      height: 0; 
+      height: 0;
       left: -0.8611111111rem;
       margin: auto;
       position: absolute;
       top: 0;
-      width: 0; 
+      width: 0;
     }
     &.open{
       &:before{
@@ -307,6 +307,8 @@
     }
     ul{
       list-style: none;
+    }
+    ul, ol{
       padding-left: 1rem;
       margin-bottom: 1rem;
       li{
