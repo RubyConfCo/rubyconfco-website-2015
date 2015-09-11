@@ -21,6 +21,7 @@ page "/code_of_conduct.html", :layout => :otherlayout
 page "/estudiantes.html", :layout => :otherlayout
 page "/ambassadors.html", :layout => :otherlayout
 page "/faq.html", :layout => :otherlayout
+page "/becas_diversidad.html", :layout => :otherlayout
 #
 # A path which all have the same layout
 # with_layout :admin do
