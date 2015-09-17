@@ -153,8 +153,8 @@ $('.js-map-close').on('click', function(event) {
 function initialize() {
   var mapCanvas = document.getElementById('map-canvas');
   var mapOptions = {
-    center: new google.maps.LatLng(44.5403, -78.5463),
-    zoom: 8,
+    center: new google.maps.LatLng(6.2653449,-75.5667881),
+    zoom: 17,
     disableDefaultUI: true,
     mapTypeId: 'roadmap'
   }
