@@ -18,6 +18,7 @@
 #
 # With alternative layout
 page "/code_of_conduct.html", :layout => :otherlayout
+page "/hotels.html", :layout => :otherlayout
 page "/estudiantes.html", :layout => :otherlayout
 page "/ambassadors.html", :layout => :otherlayout
 page "/faq.html", :layout => :otherlayout
