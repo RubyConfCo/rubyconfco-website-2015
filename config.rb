@@ -23,6 +23,7 @@ page "/estudiantes.html", :layout => :otherlayout
 page "/ambassadors.html", :layout => :otherlayout
 page "/faq.html", :layout => :otherlayout
 page "/becas_diversidad.html", :layout => :otherlayout
+page "/medellin.html", :layout => :otherlayout
 #
 # A path which all have the same layout
 # with_layout :admin do
