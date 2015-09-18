@@ -152,12 +152,18 @@ $('.js-map-close').on('click', function(event) {
 
 function initialize() {
   var mapCanvas = document.getElementById('map-canvas');
+  var myLatLng = new google.maps.LatLng(6.2653449,-75.5667881);
   var mapOptions = {
-    center: new google.maps.LatLng(6.2653449,-75.5667881),
+    center: myLatLng,
     zoom: 17,
     disableDefaultUI: true,
     mapTypeId: 'roadmap'
   }
-  var map = new google.maps.Map(mapCanvas, mapOptions)
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Ruta N'
+  });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
