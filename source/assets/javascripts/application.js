@@ -115,18 +115,6 @@ $(window).scroll(function() {
 });
 
 
-//  ACCORDION 
-
-var accordion = $(".js-accordion");
-var accordionTrigger = $(".js-accordion").find('.accordion__header');
-
-accordion.find('.accordion__body').hide();
-
-$(accordionTrigger).on('click', function() {
-  $(this).toggleClass('open');
-  $(this).next('.accordion__body').slideToggle();
-}); 
-
 // scrollTo
 
 $(".js-scrollTo").on('click', function(e){
