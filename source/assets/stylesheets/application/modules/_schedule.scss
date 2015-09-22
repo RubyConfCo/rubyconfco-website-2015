@@ -1,0 +1,15 @@
+table.schedule {
+  border-spacing: 2px;
+  border-collapse: separate;
+
+  td {
+    vertical-align: top;
+    background: #F7F7F7;
+    padding: 1px;
+  }
+
+  td.lunch {
+    text-align: center;
+    vertical-align: center;
+  }
+}
