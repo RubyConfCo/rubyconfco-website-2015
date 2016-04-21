@@ -1,0 +1,170 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "bootstrap";
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width:1px) {
+
+  body {
+    background: url('/assets/images/rubyConf_background.png');
+  }
+  section.email-form {
+    h1,h2,h3,h4,h5,h6,p,span,label {
+      color: #FFFFFF;
+      font-family: 'Lato', sans-serif;
+    }
+    h1 {
+      &.title1 {
+        font-weight: 100;
+        margin: 0px;
+      }
+
+      &.title2 {
+        font-weight: 300;
+        margin: 0px;
+      }
+
+      &.title1,
+      &.title2 {
+        font-size: 25px;
+      }
+      &.title3 {
+        font-weight: 300;
+        font-size: 14px;
+        word-spacing: 2px;
+      }
+    }
+    .logo {
+      padding-top: 20px;
+      img {
+        max-width: 250px;
+      }
+    }
+    .fa-stack {
+      transition: all 0.2s ease-out 0s, border 0.2s ease-out 0s;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+    .icons-mob {
+      margin-bottom: 20px;
+      .fa-twitter,
+      .fa-facebook {
+        color: #A9001F;
+      }
+    }
+    .social-links {
+      position: absolute;
+      top: 25%;
+      right: 3%;
+      a {
+        display: block;
+      }
+      .fa-twitter,
+      .fa-facebook {
+        color: #670001;
+      }
+      .twitter-link {
+        padding-top: 15px;
+      }
+    }
+    .principal-copy {
+      padding: 20px 0px 40px 0px;
+    }
+    .list-inline {
+      h4 {
+        font-weight: 900;
+        font-size: 36px;
+      }
+      span {
+        font-weight: 300;
+      }
+    }
+    .event-date {
+      margin: 20px 0px 30px 0px;
+    }
+    label {
+      margin-bottom: 10px;
+      font-weight: 300;
+    }
+    input {
+      font-family: "Lato",sans-serif;
+      background: transparent;
+      border: 1px solid #FFF;
+      margin-bottom: 15px;
+      color: #FFF;
+      height: 55px;
+    }
+    input::-webkit-input-placeholder {
+      color: #fff;
+    }
+    input:-moz-placeholder {
+      color: #fff;
+    }
+    input::-moz-placeholder {
+      color: #fff;
+    }
+    input:-ms-input-placeholder {
+      color: #fff;
+    }
+    #mc-embedded-subscribe {
+      -webkit-transition: all 0.2s ease-out 0s, border 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out 0s, border 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out 0s, border 0.2s ease-out;
+      -o-transition: all 0.2s ease-out 0s, border 0.2s ease-out;
+      transition: all 0.2s ease-out 0s, border 0.2s ease-out;
+      background: url('/assets/images/paper_plane.png') no-repeat scroll 50% 50%;
+      color: transparent;
+      height: 55px;
+      padding: 0px;
+      border: none;
+      opacity: 0.9;
+      position: absolute;
+      right: 15px;
+      bottom: 0px;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  section.email-form {
+    h1 {
+      &.title1,
+      &.title2 {
+        font-size: 36px;
+      }
+    }
+    .logo {
+      img {
+        max-width: 350px;
+      }
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
