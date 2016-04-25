@@ -1,10 +1,10 @@
 # RubyConf Colombia is Back for 2016!
 
-You're more than welcome, _encouraged_—to go ahead and share the news with your friends and loved ones. In order to make it easier for you, we made [this incredible link that you can click on to create a tweet announcing the good news](https://twitter.com/home?status=I%20just%20found%20out%20that%20%40rubyconfco%20is%20going%20to%20be%20on%20September%209th%20and%2010th%2C%202016%20in%20Medellin%2C%20Colombia%21%20http%3A%2F%2Fwww.rubyconf.co%2F).
+You're more than welcome, _encouraged_—to go ahead and share the news with your friends and loved ones. In order to make it easier for you, we made [this incredible link that you can click on to create a tweet announcing the good news](https://twitter.com/home?status=I%20just%20found%20out%20that%20%40rubyconfco%20is%20going%20to%20be%20on%20September%202th%20and%203th%2C%202016%20in%20Medellin%2C%20Colombia%21%20http%3A%2F%2Fwww.rubyconf.co%2F).
 
 ## What Even Is This?
 
-RubyConf Colombia is our second not-for-profit, community-driven Ruby, Rails and related technologies conference in Medellin, Colombia. RubyConf is a two-day conference (9th-10th September 2016) with a lot of awesome speakers from around the world and locally.
+RubyConf Colombia is our second not-for-profit, community-driven Ruby, Rails and related technologies conference in Medellin, Colombia. RubyConf is a two-day conference (2th-3th September 2016) with a lot of awesome speakers from around the world and locally.
 The projected attendee number for RubyConf Colombia 2016 is around 250.
 
 ## More to Come
@@ -33,7 +33,7 @@ Wonderfull. We're going to need your help as the event gets closer—especially 
 
 ## Other Inquiries
 
-If you have any other questions, feel free to reach out to **TODO@EXAMPLE.com**. Operators are sitting by their email and whatnot. 
+If you have any other questions, feel free to reach out to **TODO@EXAMPLE.com**. Operators are sitting by their email and whatnot.
 
 # We Value Everyone in Our Community
 
