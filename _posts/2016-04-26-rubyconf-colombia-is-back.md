@@ -1,0 +1,41 @@
+# RubyConf Colombia is Back for 2016!
+
+You're more than welcome, _encouraged_—to go ahead and share the news with your friends and loved ones. In order to make it easier for you, we made [this incredible link that you can click on to create a tweet announcing the good news](https://twitter.com/home?status=I%20just%20found%20out%20that%20%40rubyconfco%20is%20going%20to%20be%20on%20September%209th%20and%2010th%2C%202016%20in%20Medellin%2C%20Colombia%21%20http%3A%2F%2Fwww.rubyconf.co%2F).
+
+## What Even Is This?
+
+RubyConf Colombia is our second not-for-profit, community-driven Ruby, Rails and related technologies conference in Medellin, Colombia. RubyConf is a two-day conference (9th-10th September 2016) with a lot of awesome speakers from around the world and locally.
+The projected attendee number for RubyConf Colombia 2016 is around 250.
+
+## More to Come
+
+We'll be sending out information announcing early bird tickets, our call for proposals, our master/mistress of ceremonies, and confirmed speakers to the [mailing list][ml]. The [mailing list][ml] is going to be the first place to hear about these exciting developments.
+
+You should sign up if you haven't. If someone in your life that you feel should know about any of the above, please encourage them to [sign up for this very important newsletter][ml].
+
+[ml]: http://rubyconf.us11.list-manage.com/subscribe/post?u=7b7c2e5ead7427750ced71f09&amp;id=22ba1d80e6
+
+## How to Help
+
+As we mentioned above, this is a community-driven conference and we'd love your support.
+
+### I'm Interested in giving a talk
+
+Don’t miss this chance to talk all things Ruby, Rails and related technologies with other developers and enthusiasts [here TODO]().
+
+### I'm Interested in Sponsoring
+
+That's great! We're interested in having sponsors. please review our prospectus [here TODO]() and email us at **TODO@EXAMPLE.com** with any questions.
+
+### I'm Interested in Volunteering
+
+Wonderfull. We're going to need your help as the event gets closer—especially since this a community-driven event and you're the community. That said, it's still early days and we don't exactly know what we need yet. We'd super appreciate it if you registered your interest in helping [here TODO]() and we'll reach out to you when the time comes.
+
+## Other Inquiries
+
+If you have any other questions, feel free to reach out to **TODO@EXAMPLE.com**. Operators are sitting by their email and whatnot. 
+
+# We Value Everyone in Our Community
+
+RubyConf Colombia is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion preferences. We do not tolerate harassment of conference participants in any form. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
+[TODO CODE OF CONDUCT]()
