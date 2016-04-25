@@ -7,6 +7,10 @@ You're more than welcome, _encouraged_—to go ahead and share the news with you
 RubyConf Colombia is our second not-for-profit, community-driven Ruby, Rails and related technologies conference in Medellin, Colombia. RubyConf is a two-day conference (2th-3th September 2016) with a lot of awesome speakers from around the world and locally.
 The projected attendee number for RubyConf Colombia 2016 is around 250.
 
+## Main goals of the event
+
+Building on 2015's success, the organizers of RubyConf Colombia 2016 aim to make this year's event more impactful and with greater international exposure. The three goals of the conference are: (1) Share knowledge across borders and languages, (2) Expose the local community to bleeding edge tools and techniques in Ruby and software engineering, and (3) Highlight the work and effort of local community members. RubyConf Colombia is the premier space to connect with international and local leaders in all things related to Ruby.
+
 ## More to Come
 
 We'll be sending out information announcing early bird tickets, our call for proposals, our master/mistress of ceremonies, and confirmed speakers to the [mailing list][ml]. The [mailing list][ml] is going to be the first place to hear about these exciting developments.
