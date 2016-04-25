@@ -51,7 +51,7 @@ Email: organizers@rubyconf.co
 
 Additionally, conference organizers are available to help conference participants engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
-## h2 7. Addressing Grievances
+## 7. Addressing Grievances
 
 These are the policies for upholding our community's standards of conduct in our communication channels, associated meetups, conferences, study groups y virtual events.
 
