@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "RubyConf Colombia - Codigo de Conducta"
 ---
 
