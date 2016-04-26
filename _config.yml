@@ -20,6 +20,9 @@ markdown: kramdown
 
 assets:
   root_url: '/assets'
+  
+sass:
+    sass_dir: _sass
 
 exclude: [
   'Gemfile',
