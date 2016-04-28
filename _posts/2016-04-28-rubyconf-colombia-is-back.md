@@ -54,7 +54,7 @@ RubyConf Colombia is our second not-for-profit, community-driven Ruby,
 ### I'm Interested in giving a talk
 
   Don’t miss this chance to talk all things Ruby, Rails and related
-  technologies with other developers and enthusiasts [here TODO]().
+  technologies with other developers and enthusiasts [here](https://www.papercall.io/rubyconfco-2016).
 
 ### I'm Interested in Sponsoring
 
