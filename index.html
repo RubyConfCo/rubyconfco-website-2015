@@ -64,18 +64,6 @@ layout: home
             <h4 id="days">163</h4>
             <span>DAYS</span>
           </li>
-          <li>
-            <h4 id="hours">2</h4>
-            <span>HOURS</span>
-          </li>
-          <li>
-            <h4 id="minutes">45</h4>
-            <span>MINUTES</span>
-          </li>
-          <li>
-            <h4 id="seconds">30</h4>
-            <span>SECONDS</span>
-          </li>
         </ul>
       </div>
       <div class="col-xs-12 text-center visible-xs icons-mob">
@@ -112,17 +100,17 @@ layout: home
       var hours_s = hours % 24;
 
       document.getElementById("days").innerHTML= days;
-      document.getElementById("hours").innerHTML= hours_s;
-      document.getElementById("minutes").innerHTML= minutes_s;
-      document.getElementById("seconds").innerHTML= seconds_s;
+    //document.getElementById("hours").innerHTML= hours_s;
+    //document.getElementById("minutes").innerHTML= minutes_s;
+    //document.getElementById("seconds").innerHTML= seconds_s;
 
       setTimeout("countdown()", 1000);
     }
     else {
       document.getElementById("days").innerHTML= days;
-      document.getElementById("hours").innerHTML= hours_s;
-      document.getElementById("minutes").innerHTML= minutes_s;
-      document.getElementById("seconds").innerHTML= seconds_s;
+    //document.getElementById("hours").innerHTML= hours_s;
+    //document.getElementById("minutes").innerHTML= minutes_s;
+    //document.getElementById("seconds").innerHTML= seconds_s;
     }
   }
   countdown();
