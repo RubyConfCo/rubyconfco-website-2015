@@ -10,7 +10,7 @@ made [this incredible link that you can click on to create a tweet
 announcing the good
 news](https://twitter.com/home?status=I%20just%20found%20out%20that%20%40rubyconfco%20is%20going%20to%20be%20on%20September%202th%20and%203th%2C%202016%20in%20Medellin%2C%20Colombia%21%20http%3A%2F%2Fwww.rubyconf.co%2F).
 
-## What Even Is This?
+## What Event Is This?
 
 RubyConf Colombia is our second not-for-profit, community-driven Ruby,
          Rails and related technologies conference in Medellin,
