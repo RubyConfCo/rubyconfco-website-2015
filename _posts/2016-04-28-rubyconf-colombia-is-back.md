@@ -36,12 +36,12 @@ RubyConf Colombia is our second not-for-profit, community-driven Ruby,
 
   We'll be sending out information announcing early bird tickets, our
   call for proposals, our master/mistress of ceremonies, and confirmed
-  speakers to the [mailing list][ml]. The [mailing list][ml] is going to
+  speakers to the [mailing list](rubyconf.us11.list-manage.com/subscribe/post?u=7b7c2e5ead7427750ced71f09&amp;id=22ba1d80e6). The [mailing list](rubyconf.us11.list-manage.com/subscribe/post?u=7b7c2e5ead7427750ced71f09&amp;id=22ba1d80e6) is going to
   be the first place to hear about these exciting developments.
 
   You should sign up if you haven't. If someone in your life that you
   feel should know about any of the above, please encourage them to
-  [sign up for this very important newsletter][ml].
+  [sign up for this very important newsletter](rubyconf.us11.list-manage.com/subscribe/post?u=7b7c2e5ead7427750ced71f09&amp;id=22ba1d80e6).
 
   [ml]:
   http://rubyconf.us11.list-manage.com/subscribe/post?u=7b7c2e5ead7427750ced71f09&amp;id=22ba1d80e6
@@ -59,7 +59,7 @@ RubyConf Colombia is our second not-for-profit, community-driven Ruby,
 ### I'm Interested in Sponsoring
 
   That's great! We're interested in having sponsors. please review our
-  prospectus [here TODO]() and email us at **TODO@EXAMPLE.com** with any
+  prospectus [here](http://www.rubyconf.co/assets/rubyconf_2016.pdf) and email us at **organizers@rubyconf.co** with any
   questions.
 
 ### I'm Interested in Volunteering
@@ -74,7 +74,7 @@ RubyConf Colombia is our second not-for-profit, community-driven Ruby,
 ## Other Inquiries
 
   If you have any other questions, feel free to reach out to
-  **TODO@EXAMPLE.com**. Operators are sitting by their email and
+  **organizers@rubyconf.co**. Operators are sitting by their email and
   whatnot.
 
 # We Value Everyone in Our Community
@@ -86,4 +86,4 @@ RubyConf Colombia is our second not-for-profit, community-driven Ruby,
   conference participants in any form. Conference participants violating
   these rules may be sanctioned or expelled from the conference without
   a refund at the discretion of the conference organizers.
-  [TODO CODE OF CONDUCT]()
+  [CODE OF CONDUCT](http://www.rubyconf.co/code-of-conduct.html)
