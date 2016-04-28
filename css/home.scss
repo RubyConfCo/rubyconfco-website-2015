@@ -148,6 +148,10 @@
   .fa-file-pdf-o {
     margin-top: 40px;
     color: #fff;
+    &.active,
+    &:hover {
+      color: #fff;
+    }
   }
   .show-pdf {
     margin-bottom: 0px;
