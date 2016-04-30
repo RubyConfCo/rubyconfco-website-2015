@@ -16,7 +16,7 @@
     background: url('/assets/images/rubyConf_background.png');
   }
   section.email-form {
-    h1,h2,h3,h4,h5,h6,p,span,label,a {
+    h1,h2,h3,h4,h5,h6,p,span,label {
       color: #FFFFFF;
       font-family: 'Lato', sans-serif;
     }
@@ -88,6 +88,9 @@
     }
     .cfp {
       padding-top: 40px;
+      a {
+        color: #FFFFFF;
+      }
     }
     .principal-copy {
       padding: 20px 0px 40px 0px;
