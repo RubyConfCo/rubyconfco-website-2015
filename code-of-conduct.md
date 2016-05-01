@@ -2,10 +2,6 @@
 layout: default
 ---
 
----
-title: "Code of Conduct"
----
-
 # CITIZEN CODE OF CONDUCT
 
 ## 1. Purpose

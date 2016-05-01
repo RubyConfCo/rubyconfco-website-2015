@@ -29,4 +29,6 @@ exclude: [
   'Gemfile.lock',
   'README.md',
   'LICENSE',
+  'about.md',
+  'codigo-de-conducta'
 ]
