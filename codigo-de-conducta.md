@@ -1,5 +1,6 @@
 ---
-title: "RubyConf Colombia - Codigo de Conducta"
+layout: default
+title: Codigo de Conducta - RubyConf Colombia
 ---
 
 # CODIGO DE CONDUCTA
