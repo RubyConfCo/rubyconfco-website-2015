@@ -1,5 +1,6 @@
 ---
 layout: default
+title: CITIZEN CODE OF CONDUCT RubyConf Colombia
 ---
 
 # CITIZEN CODE OF CONDUCT
