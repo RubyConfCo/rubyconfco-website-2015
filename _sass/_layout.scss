@@ -17,11 +17,6 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
-    &:visited {
-        color: $red-color-dark;
-    }
 }
 
 .site-nav {
@@ -238,5 +233,35 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+
+.site-header {
+    background: url("/assets/images/red_background.jpg");
+    text-align: center;
+    a {
+        float: none;
+        color: #FFF;
+    }
+}
+.page-content {
+    background: #F5F5F5;
+    padding-top: 0px;
+    #citizen-code-of-conduct {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .wrapper {
+        background: #fff;
+    }
+}
+.site-footer {
+    background: url("/assets/images/red_background.jpg");
+    h2,a,p,li {
+        color: #fff;
+    }
+    .icon > svg path {
+        fill: #fff;
     }
 }
