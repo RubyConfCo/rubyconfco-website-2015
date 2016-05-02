@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "RubyConf Colombia is Back for 2016!"
 ---
 
