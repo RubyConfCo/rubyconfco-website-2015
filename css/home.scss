@@ -92,7 +92,7 @@
       }
     }
     .cfp {
-      padding-bottom: 40px;
+      padding-bottom: 65px;
       a {
         color: #FFFFFF;
       }
@@ -170,15 +170,10 @@
     .show-pdf {
       color: #000;
       padding-top: 10px;
+      padding-bottom: 40px;
     }
     .fa-file-pdf-o:hover {
       color: #969696;
-    }
-    .cfp {
-      a {
-        text-decoration: underline;
-        color: #000;
-      }
     }
   }
   .fa-file-pdf-o {
@@ -194,6 +189,7 @@
 
   .nav-bar-home {
     margin-bottom: 0px;
+    background: transparent url("/assets/images/white_background.jpg") repeat scroll 0% 0%;
     &.navbar-default .navbar-nav li {
       a {
         color: #000;
