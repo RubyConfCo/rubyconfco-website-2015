@@ -3,7 +3,33 @@ layout: home
 ---
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-<section class="email-form">
+
+<nav class="navbar navbar-default nav-bar-home">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/ruby.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">News</a></li>
+        <li><a href="/code-of-conduct.html">Code of Conduct</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<section class="email-form text-home">
   <div class="col-xs-12 text-center logo">
     <img src="/assets/images/logo.png">
     <div class="social-links hidden-xs">
@@ -52,18 +78,6 @@ layout: home
         </form>
       </div>
 
-      <div class="col-xs-12 text-center">
-        <p>Interested in sponsoring?</p>
-        <a class="fa fa-file-pdf-o fa-4x" href="/assets/rubyconf_2016.pdf" target="_blank"></a>
-        <p class="show-pdf">Sponsorship Prospectus</p>
-      </div>
-
-      <div class="col-xs-12 text-center cfp">
-        <h2 class="title2">
-          <a href="https://www.papercall.io/rubyconfco-2016" target="_blank">Call For Proposals</a>
-        </h2>
-      </div>
-
       <div class="col-xs-12 text-center event-date ">
         <h1 class="title3">THE EVENT STARTS IN</h1>
         <ul class="list-inline">
@@ -72,9 +86,6 @@ layout: home
             <span>DAYS</span>
           </li>
         </ul>
-      </div>
-      <div class="col-xs-12 text-center cfp">
-        <a href="/code-of-conduct.html" target="_blank">Code of Conduct</a>
       </div>
       <div class="col-xs-12 text-center visible-xs icons-mob">
         <a href="https://www.facebook.com/RubyConfCo" target="_blank">
@@ -91,6 +102,24 @@ layout: home
         </a>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="text-home">
+  <div class="col-xs-12 info-home">
+
+    <div class="col-xs-12 text-center">
+      <h4>Interested in sponsoring?</h4>
+      <a class="fa fa-file-pdf-o fa-3x" href="/assets/rubyconf_2016.pdf" target="_blank"></a>
+      <p class="show-pdf">Sponsorship Prospectus</p>
+    </div>
+
+    <div class="col-xs-12 text-center cfp">
+      <h4 class="title2">
+        <a href="https://www.papercall.io/rubyconfco-2016" target="_blank">Call For Proposals</a>
+      </h4>
+    </div>
+
   </div>
 </section>
 <script>

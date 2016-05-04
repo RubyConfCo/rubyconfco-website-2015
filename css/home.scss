@@ -12,14 +12,19 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width:1px) {
 
-  body {
-    background: url('/assets/images/rubyConf_background.png');
-  }
-  section.email-form {
+  .text-home {
     h1,h2,h3,h4,h5,h6,p,span,label {
-      color: #FFFFFF;
-      font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     }
+  }
+
+  section.email-form {
+    background: url('/assets/images/rubyConf_background.png');
+    
+    h1,h2,h3,h4,h5,h6,p,span,label {
+    color: #FFFFFF;
+    }
+
     h1 {
       &.title1 {
         font-weight: 100;
@@ -151,6 +156,31 @@
       }
     }
   }
+
+  .info-home {
+    background: transparent url("/assets/images/white_background.jpg") repeat scroll 0% 0%;
+    padding: 70px 15px;
+    h4,a {
+      color: #A20015;
+      font-weight: 600;
+    }
+    h4 {
+      margin: 50px 0px;
+    }
+    .show-pdf {
+      color: #000;
+      padding-top: 10px;
+    }
+    .fa-file-pdf-o:hover {
+      color: #969696;
+    }
+    .cfp {
+      a {
+        text-decoration: underline;
+        color: #000;
+      }
+    }
+  }
   .fa-file-pdf-o {
     color: #fff;
     &.active,
@@ -160,6 +190,18 @@
   }
   .show-pdf {
     margin-bottom: 0px;
+  }
+
+  .nav-bar-home {
+    margin-bottom: 0px;
+    &.navbar-default .navbar-nav li {
+      a {
+        color: #000;
+        &:hover {
+          color: #A60010;
+        }
+      }
+    }
   }
 }
 
