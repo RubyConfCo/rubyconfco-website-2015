@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "RubyConf Colombia is Back for 2016!"
+title: RubyConf Colombia is Back for 2016!
+permalink: rubyconf_colombia_is_back
 ---
 
 # RubyConf Colombia is Back for 2016!
