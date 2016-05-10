@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "RubyConf Colombia esta de vuelta para el 2016!"
+permalink: rubyconf_colombia_esta_de_vuelta
 ---
 
 # RubyConf Colombia está de vuelta para el 2016!
